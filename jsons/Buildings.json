@@ -13,24 +13,33 @@
   "requiredTech": "Iron Working"
  },
 {
-		"name": "Colossus",
-		"cost": 185,
-		"culture": 1,
-		"gold": 5,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in all cities]"],
-		"requiredTech": "Iron Working",
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	"name": "Colossus",
+	"cost": 185,
+	"culture": 1,
+	"gold": 5,
+	"greatPersonPoints": {"Great Merchant": 1},
+	"isWonder": true,
+	"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in all cities]"],
+	"requiredTech": "Iron Working",
+	"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
   },
-	{
-		"name": "Mausoleum of Halicarnassus",
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-			"[+2 Gold] from [Marble] tiles [in all cities]", "[+2 Gold] from [Stone] tiles [in all cities]"],
-		"requiredTech": "Masonry",
-		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
-	},
+{
+	"name": "Mausoleum of Halicarnassus",
+	"culture": 1,
+	"greatPersonPoints": {"Great Merchant": 1},
+	"isWonder": true,
+	"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+		"[+2 Gold] from [Marble] tiles [in all cities]", "[+2 Gold] from [Stone] tiles [in all cities]"],
+	"requiredTech": "Masonry",
+	"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+},
+{
+	"name": "Petra",
+	"culture": 1,
+	"isWonder": true,
+	"greatPersonPoints": {"Great Engineer": 1},
+	"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in all cities]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
+	"requiredTech": "Currency",
+	"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
+}
 ]
